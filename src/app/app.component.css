@@ -1,0 +1,16 @@
+.app {
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+.nav-item {
+    margin-right: 5%;
+}

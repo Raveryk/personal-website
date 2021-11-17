@@ -1,0 +1,14 @@
+.view-title {
+    display: flex;
+    justify-content: center;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.body {
+    width: 40%;
+}

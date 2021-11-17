@@ -1,0 +1,15 @@
+<div class="app">
+  <div class='title'>
+    <h1>Reese Kling</h1>
+  </div>
+
+  <ul class='nav'>
+    <li class='nav-item'><a routerLink="/about-me">About Me</a></li>
+    <li class='nav-item'><a [routerLink]="['/music-projects']">Music Projects</a></li>
+    <li class='nav-item'><a [routerLink]="['/discography']">Discography</a></li>
+    <li class='nav-item'><a [routerLink]="['/software']">Software</a></li>
+  </ul>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>
